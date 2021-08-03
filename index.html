@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="screen">
+                <div class="viewer" id="viewer">0</div>
+            </div>
+            <div class="clear white" id="clear">C</div>
+            <div class="inner-container">
+                <div class="operator">
+                    <div class="ops" data-ops="plus">+</div>
+                    <div class="ops" data-ops="minus">-</div>
+                    <div class="ops" data-ops="times">*</div>
+                    <div class="ops" data-ops="divided by">/</div>
+                </div>
+                <div class="numbers">
+                    <div class="num" data-num="1">1</div>
+                    <div class="num" data-num="2">2</div>
+                    <div class="num" data-num="3">3</div>
+                    <div class="num" data-num="4">4</div>
+                    <div class="num" data-num="5">5</div>
+                    <div class="num" data-num="6">6</div>
+                    <div class="num" data-num="7">7</div>
+                    <div class="num" data-num="8">8</div>
+                    <div class="num" data-num="9">9</div>
+                    <div class="num white" data-num="0">0</div>
+                    <div class="num" data-num=".">.</div>
+                    <div class="ops white" data-ops="equals" id="equals" data-result="">=</div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
